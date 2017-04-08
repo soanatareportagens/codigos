@@ -30,7 +30,7 @@ document.onclick=reEnable
 <script type="text/javascript">
 function countDown(secs) {
     var btn = document.getElementById('btn');
-    btn.value = "Aguarde "+secs+" segundos";<!--texto que aparecerÃ¡ enquanto o tempo descer, nÃ£o altere o"+secs+"-->
+    btn.value = "Aguarde "+secs+" segundos";<!--texto que aparecerá enquanto o tempo descer, não altere o"+secs+"-->
     if(secs < 1) {
         clearTimeout(timer);
         btn.disabled = false;
@@ -42,8 +42,8 @@ function countDown(secs) {
 </script>
 
 
-<input disabled type="submit" id="btn" value="Aguarde 08 segundos!" /><!--texto inicial do botÃ£o-->
-<script type="text/javascript">countDown(08);<!--texto inicial do botÃ£o-->
+<input disabled type="submit" id="btn" value="Aguarde 08 segundos!" /><!--texto inicial do botão-->
+<script type="text/javascript">countDown(08);<!--texto inicial do botão-->
 </script>
 
 <!--------------------cronometro fim---------------------->
