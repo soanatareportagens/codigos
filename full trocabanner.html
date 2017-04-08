@@ -24,7 +24,69 @@ document.onclick=reEnable
 <!xxxxxxxxxxxxxxxxxxbloqueio botao direito Fimxxxxxxxxxxxxxxxxxx>
 <!--------cod clique aqui e continue lendo----------->
 <div style="text-align: center;">
-v
+<!--------------------cronometro ini---------------------->
+<div style="text-align: center;">
+<script type="text/javascript">
+function countDown(secs) {
+    var btn = document.getElementById('btn');
+    btn.value = "Aguarde "+secs+" segundos";<!--texto que aparecerá enquanto o tempo descer, não altere o"+secs+"-->
+    if(secs < 1) {
+        clearTimeout(timer);
+        btn.disabled = false;
+        btn.value = 'OK liberado';
+    }
+    secs--;
+    var timer = setTimeout('countDown('+secs+')',1000);
+}
+</script>
+
+
+<input disabled type="submit" id="btn" value="Aguarde 08 segundos!" /><!--texto inicial do botão-->
+<script type="text/javascript">countDown(06);<!--texto inicial do botão-->
+</script>
+
+<!--------------------cronometro fim---------------------->
+<div id="mime">
+<a color:="" href="#" onclick="document.getElementById('mime').style.display='none';" red;"="" style="float: right;"><span style="color: red;"><span style="font-weight:bold;">
+</span></span></a>
+<div style="margin: auto; text-align: center; width: 100%px; height:180 ">
+
+<script>
+// O HTML da div precisa estar acima.
+// Esconde a div no início
+var div = document.getElementById('mime');
+div.style.display = 'none';
+
+// Mostra a div após 1 minuto
+setTimeout(function() {
+    div.style.display = 'block';
+}, 9000);
+</script> 
+<!--------------------nova div temp fim---------------------->  
+</div>
+<!---------cristo---------->  
+	<script>
+		function exibe(){
+			document.getElementById('aaa').style.display="";
+		}
+		
+		window.onload = function(){
+			setTimeout("exibe()", 9000);
+		}
+	</script>
+
+	<a id="aaa" href="#" onclick="document.getElementById('popjan').style.display='none';"><img src="http://www.gifsgratis.com.br/gifs/webdesign/setas/hwright.gif" /><img src="http://i1340.photobucket.com/albums/o723/soanatareportagensanu/clique%20aqui%20e%20continue%20lendo%20amarelo_zpsb9hhn5dc.jpg" width="450" height="30" " /></a>
+
+<!---------cristo----------> 
+</div>
+<div style="clear: both;">
+</div>
+<div style="margin: auto; text-align: center; width: 1200;">
+</div>
+<div style="clear: both;">
+</div>
+<div style="text-align: left;">
+          
 <!-------------------------anuncuio qualque formato-------------------->
 <script language="JavaScript">
 var maxAdNo = 5
