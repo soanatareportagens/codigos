@@ -1,3 +1,4 @@
+
 <!-------internas------->
 
 <!xxxxxxxxxxxxxxxxxxbloqueio botao direito inixxxxxxxxxxxxxxxxxx>
@@ -42,55 +43,30 @@ function countDown(secs) {
 
 
 <input disabled type="submit" id="btn" value="Aguarde 08 segundos!" /><!--texto inicial do botão-->
-<script type="text/javascript">countDown(06);<!--texto inicial do botão-->
+<script type="text/javascript">countDown(08);<!--texto inicial do botão-->
 </script>
 
 <!--------------------cronometro fim---------------------->
-<div id="mime">
-<a color:="" href="#" onclick="document.getElementById('mime').style.display='none';" red;"="" style="float: right;"><span style="color: red;"><span style="font-weight:bold;">
-</span></span></a>
-<div style="margin: auto; text-align: center; width: 100%px; height:180 ">
-
+<div id="my_div">
 <script>
-// O HTML da div precisa estar acima.
-// Esconde a div no início
-var div = document.getElementById('mime');
-div.style.display = 'none';
-
-// Mostra a div após 1 minuto
-setTimeout(function() {
-    div.style.display = 'block';
-}, 9000);
-</script> 
-<!--------------------nova div temp fim---------------------->  
+var element_id = "my_div" ;  //namew of div or object that you want the link to appear in (Div is best)
+var link_text = "<a href='http://soanatareportagens.blogspot.com.br/'><img src='http://i1340.photobucket.com/albums/o723/soanatareportagensanu/clique%20aqui%20e%20continue%20lendo%20amarelo_zpsb9hhn5dc.jpg'width='250' height='30'></a>"; //link location
+var time = 3; //time in seconds until display
+setTimeout(function(){document.getElementById(element_id).innerHTML = link_text},time*3000)
+</script>
 </div>
-<!---------cristo---------->  
-	<script>
-		function exibe(){
-			document.getElementById('aaa').style.display="";
-		}
-		
-		window.onload = function(){
-			setTimeout("exibe()", 9000);
-		}
-	</script>
-
-	<a id="aaa" href="#" onclick="document.getElementById('popjan').style.display='none';">
-	<img src="http://www.gifsgratis.com.br/gifs/webdesign/setas/hwright.gif" />
-	<img src="http://i1340.photobucket.com/albums/o723/soanatareportagensanu/clique%20aqui%20e%20continue%20lendo%20
-   amarelo_zpsb9hhn5dc.jpg" width="450" height="30" " /></a>
-          
+<br/>
 <!-------------------------anuncuio qualque formato-------------------->
 <script language="JavaScript">
 var maxAdNo = 5
 var adNo
 var myAd = new Array()
 
-myAd[0] = '<iframe allowtransparency="true" src="https://soanatareportagens.000webhostapp.com/anun/zanox/Netshoes/email.html" marginwidth="0" marginheight="0" width="100%" height="1500" border="0" frameborder="0" style="border:none;" scrolling="no" align="top"></iframe>'
+myAd[0] = '<iframe allowtransparency="true" src="https://soanatareportagens.000webhostapp.com/anun/zanox/avira/300%20x%20250%201.html" marginwidth="0" marginheight="0" width="100%" height="1500" border="0" frameborder="0" style="border:none;" scrolling="no" align="top"></iframe>'
 
 myAd[1] = '<iframe allowtransparency="true" src="https://soanatareportagens.000webhostapp.com/anun/zanox/avira/300%20x%20250%201.html" marginwidth="0" marginheight="0" width="100%" height="1500" border="0" frameborder="0" style="border:none;" scrolling="no" align="top"></iframe>'
 
-myAd[2] = '<iframe allowtransparency="true" src="https://soanatareportagens.000webhostapp.com/anun/zanox/Casas%20Bahia/email.html" marginwidth="0" marginheight="0" width="100%" height="1500" border="0" frameborder="0" style="border:none;" scrolling="no" align="top"></iframe>'
+myAd[2] = '<iframe allowtransparency="true" src="https://www.netfarma.com.br/?utm_source=zanox&utm_medium=cpa&utm_content=txtlink&utm_campaign=zanox&zanpid=2274987827907605504&AffID=2291660" marginwidth="0" marginheight="0" width="100%" height="1500" border="0" frameborder="0" style="border:none;" scrolling="no" align="top"></iframe>'
 
 myAd[3] = '<iframe allowtransparency="true" src="https://www.netfarma.com.br/?utm_source=zanox&utm_medium=cpa&utm_content=txtlink&utm_campaign=zanox&zanpid=2274987827907605504&AffID=2291660" marginwidth="0" marginheight="0" width="100%" height="1500" border="0" frameborder="0" style="border:none;" scrolling="no" align="top"></iframe>'
 
